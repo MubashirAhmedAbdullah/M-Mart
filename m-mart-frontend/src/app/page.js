@@ -9,6 +9,9 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 import { FaCartArrowDown } from "react-icons/fa6";
+import CarouselImages from "@/components/carosel";
+
+
 
 
 
@@ -58,6 +61,11 @@ export default function Home() {
 
           </div>
         </nav>
+      </div>
+
+
+      <div className="w-auto max-h-max px-40">
+        <CarouselImages />
       </div>
     </div>
   )

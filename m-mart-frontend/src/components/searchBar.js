@@ -29,7 +29,7 @@ const FancySearchBar = ({ categories = ['All', 'Electronics', 'Books', 'Clothing
   return (
     <div className="relative w-full md:w-3/4 lg:w-1/2 mx-auto">
       <form
-        className="flex items-center rounded-lg shadow-md overflow-hidden border border-gray-300 focus-within:border-blue-500"
+        className="flex items-center rounded-lg overflow-hidden border border-gray-300 focus-within:border-blue-500"
         onSubmit={handleSubmit}
       >
         {/* Filter Button (Mobile/Smaller Screens) */}

@@ -25,12 +25,12 @@ export default function Home() {
           <div>
             <PromoBanner />
           </div>
-          <div className="flex items-center px-5">
+          <div className="flex items-center px-11">
             <div className="flex items-center gap-3 text-2xl font-semibold">
               <Image src={"/Gemini_Generated_Image_9chnmv9chnmv9chn.jpeg"} width={55} height={100} alt="logo image" /> M-Mart
             </div>
 
-            <div className="w-5xl">
+            <div className="w-4xl">
               <FancySearchBar />
             </div>
 
@@ -39,7 +39,7 @@ export default function Home() {
                 <li>
                   <TooltipProvider>
                     <Tooltip>
-                      <TooltipTrigger><LuLogIn size={30} /></TooltipTrigger>
+                      <TooltipTrigger><LuLogIn size={25} /></TooltipTrigger>
                       <TooltipContent>
                         <p className="text-sm">Login Now</p>
                       </TooltipContent>
@@ -49,7 +49,7 @@ export default function Home() {
                 <li>
                   <TooltipProvider>
                     <Tooltip>
-                      <TooltipTrigger><FaCartArrowDown size={30} /></TooltipTrigger>
+                      <TooltipTrigger><FaCartArrowDown size={25} /></TooltipTrigger>
                       <TooltipContent>
                         <p className="text-sm">Add To Cart</p>
                       </TooltipContent>
@@ -66,6 +66,11 @@ export default function Home() {
 
       <div className="w-auto max-h-max px-40">
         <CarouselImages />
+      </div>
+
+
+      <div className="mx-10">
+        <p className="text-2xl font-bold my-2 text-[#003366]">Best Products For You</p>
       </div>
     </div>
   )

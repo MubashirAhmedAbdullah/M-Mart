@@ -358,7 +358,7 @@ export const products = [
       },
       {
         id: 18,
-        name: " ",
+        name: "Yoga Friendly Mat",
         category: "Fitness",
         brand: "ZenFit",
         price: 39.99,

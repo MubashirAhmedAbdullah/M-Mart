@@ -51,7 +51,7 @@ export default function Home() {
                     <Tooltip>
                       <TooltipTrigger><FaCartArrowDown size={25} /></TooltipTrigger>
                       <TooltipContent>
-                        <p className="text-sm">Add To Cart</p>
+                        <p className="text-sm">Your Cart</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
